@@ -66,7 +66,7 @@ async def repeatn(ctx, nb, *msg):
 		nb = int(nb)
 		test = True
 	except:
-		await ctx.send("Fais __**!help**__ pour apprendre à utiliser les commandes".format(pre))
+		await ctx.send("Fais __**!help**__ pour apprendre à utiliser les commandes lol".format(pre))
 	if test:
 		for i in range(nb):
 			await ctx.send(" ".join(msg))
